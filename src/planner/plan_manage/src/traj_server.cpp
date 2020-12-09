@@ -226,7 +226,7 @@ void cmdCallback(const ros::TimerEvent &e)
 
   last_yaw_ = cmd.yaw;
 
-  pos_cmd_pub.publish(cmd);
+  //pos_cmd_pub.publish(cmd);
 }
 
 int main(int argc, char **argv)
